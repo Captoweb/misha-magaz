@@ -24,6 +24,10 @@ body {
     margin-left: auto;
 }
 
+
+
+
+
 .home-menu_wrapper, .cards_wrapper {
   min-height: calc(100vh - 330px);
   padding-bottom: 40px;
@@ -539,7 +543,7 @@ form .button {
   margin-right: 10px;
 }
 
-/* переключение внешнего вида плитки товаров  end */
+/* nav */
 
 h2.menu-title {
   margin-bottom: 20px;
@@ -557,4 +561,8 @@ nav.top-nav a {
 .categoryName {
   margin-top: 20px;
   margin-bottom: 25px;
+}
+
+.category-wrapper {
+  background: #f8f8f8;
 }
