@@ -319,7 +319,7 @@ footer {
 }
 
 .home-menu-name {
-  font-size: 14px;
+  font-size: 16px;
   color: #222;
   font-weight: 400;
   margin-top: 14px;
@@ -563,6 +563,17 @@ nav.top-nav a {
   margin-bottom: 25px;
 }
 
-.category-wrapper {
+.oneCategory-wrapper {
   background: #f8f8f8;
+}
+
+.home-menu.cat {
+  gap: 25px 20px;
+}
+
+.home-menu-card.cat {
+  height: 200px;
+  background-color: #fff;
+  border: 2px solid #aaa;
+  box-shadow: 0 4px 12px rgba(224, 224, 224, 0.5);
 }
