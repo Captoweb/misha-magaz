@@ -81,6 +81,17 @@
     }
     .home-menu-name {
         font-size: 16px;
+        margin-top: 12px;
+    }
+
+
+    .home-menu-card.cat {
+        height: 175px;
+    }
+    
+    .home-menu-name.cat {
+        margin-top: 8px;
+        line-height: 1.2;
     }
 } 
 
