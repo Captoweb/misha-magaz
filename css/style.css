@@ -52,7 +52,7 @@ h2 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px 20px;
+    gap: 25px 20px;
     margin-bottom: 50px;
 }
 
@@ -76,8 +76,8 @@ h2 {
 }
 
 .card-text {
-  font-size: 15px;
-  height: 94px;
+  font-size: 16px;
+  height: 100px;
   overflow: hidden;
 }
 
@@ -322,7 +322,7 @@ footer {
   font-size: 16px;
   color: #222;
   font-weight: 400;
-  margin-top: 14px;
+  margin-top: 10px;
 }
 
 .home-menu-img {
@@ -569,11 +569,13 @@ nav.top-nav a {
 
 .home-menu.cat {
   gap: 25px 20px;
+  margin-bottom: 55px;
 }
 
 .home-menu-card.cat {
   height: 200px;
   background-color: #fff;
-  border: 2px solid #aaa;
+  /* border: 2px solid #aaa; */
+  border: 2px solid rgba(204, 204, 204, 0.9);
   box-shadow: 0 4px 12px rgba(224, 224, 224, 0.5);
 }
