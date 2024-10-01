@@ -63,6 +63,7 @@ h2 {
     margin: 0;
     position: relative;
     border: 1px solid #ccc;
+    height: auto;
 }
 
 .card:hover {
