@@ -213,15 +213,34 @@
 }
 
 @media screen and (max-width: 405px) {
+
+    .home-menu.test {
+        gap: 24px 8px;
+    }
+
     .home-menu-card {
         width: 165px;
         
     }
+    .test .home-menu-card {
+        width: 170px;
+    }
+
     .home-menu-img {
         max-width: 100px;
     }
+
+    .home-menu.test .home-menu-img {
+        max-width: 165px;
+    }
     .home-menu-name {
         line-height: 120%;
+    }
+
+    .test .home-menu-name {
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 5px;
     }
 
     .cart_wrapper .container {
