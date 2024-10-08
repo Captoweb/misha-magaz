@@ -620,6 +620,7 @@ nav.top-nav a {
 
 
     .krasiva_znakov {
+      background-color: red;
       margin: 18px 0;
       display: flex;
       flex-flow: column;
@@ -628,17 +629,17 @@ nav.top-nav a {
       padding: 10vw 0;
       margin-left: auto;
       margin-right: auto;
-      padding-bottom: 20px;
+      padding-bottom: 15px;
       padding-top: 20px;
     }
 
     .krasiva_znakov span {
-      background-color: red;
+     
       color: #ddcaa0;
       font-family: Times, serif;
       position: relative;
       text-transform: uppercase;
-      font-size: 3vw;
+      font-size: 22px;
       letter-spacing: 1vw;
       line-height: 1;
       margin: 0;
@@ -647,7 +648,7 @@ nav.top-nav a {
       
     }
     .krasiva_znakov span + span {
-      font-size: 2vw;
+      font-size: 22px;
     }
     .krasiva_znakov span:before {
     content: attr(data-double);
