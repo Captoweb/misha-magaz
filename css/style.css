@@ -631,7 +631,9 @@ nav.top-nav a {
       padding-bottom: 20px;
       padding-top: 20px;
     }
+
     .krasiva_znakov span {
+      background-color: red;
       color: #ddcaa0;
       font-family: Times, serif;
       position: relative;
