@@ -599,8 +599,13 @@ nav.top-nav a {
   padding-top: 10px;
   background-color: #fff;
 
-  /* border: 2px solid rgba(204, 204, 204, 0.9);
-  box-shadow: 0 4px 12px rgba(224, 224, 224, 0.5); */
+  /* border: 2px solid rgba(204, 204, 204, 0.7); */
+  /* background: rgba(204, 204, 204, 0.4); */
+  /* box-shadow: 0 4px 12px rgba(224, 224, 224, 0.6); */
+
+  background: #e8e8e8;
+  background: #eee;
+  border-radius: 16px;
 }
 
 .test a:hover{opacity:0.85}a:active{opacity:1}
@@ -615,6 +620,9 @@ nav.top-nav a {
   font-size: 22px;
   font-weight: 700;
 }
+
+
+
 
 
 
