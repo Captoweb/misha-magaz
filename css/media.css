@@ -45,6 +45,22 @@
         font-size: 34px;
         margin-bottom: 5px;
     }
+
+    
+
+    .home-menu.test {
+        /* gap: 26px 15px; */
+    }
+
+    .home-menu.test .home-menu-img {
+        width: 260px;
+    }
+
+    .test .home-menu-card {
+        
+        width: 280px;
+        height: 195px;
+    }
 }
 
 
@@ -55,7 +71,17 @@
     .home-menu-name {
         font-size: 18px;
     }
+
+    .home-menu.test .home-menu-img {
+        width: 235px;
+    }
+
+    .test .home-menu-card {
+        width: 260px;
+        height: 185px;
+    }
 } 
+
 
 @media (max-width: 575px) { 
     .blockView.card {
@@ -72,6 +98,15 @@
     }    
     .blockView.card .button {
         font-size: 13px;
+    }
+
+    .home-menu.test .home-menu-img {
+        width: 225px;
+    }
+
+    .test .home-menu-card {
+        width: 250px;
+        height: 175px;
     }
 }
 
@@ -93,6 +128,15 @@
         margin-top: 8px;
         line-height: 1.2;
     }
+
+    .home-menu.test .home-menu-img {
+        width: 200px;
+    }
+
+    .test .home-menu-card {
+        width: 220px;
+        height: 165px;
+    }
 } 
 
 @media screen and (max-width: 500px) {
@@ -101,6 +145,22 @@
         padding: 20px;
         margin-bottom: 30px;
       }
+
+    .home-menu.test .home-menu-img {
+        width: 185px;
+    }
+
+    .test .home-menu-card {
+        width: 205px;
+        height: 147px;
+    }
+
+    .test .home-menu-name {
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: 10px;
+        line-height: 110%;
+    }
 }
 
 @media screen and (max-width: 485px) {
@@ -149,22 +209,25 @@
     }
 
     .test .home-menu-name {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 700;
-        margin-top: 5px;
-    }
-
-    .home-menu.test {
-        gap: 24px 8px;
-    }
-
-    .home-menu.test .home-menu-img {
-        max-width: 180px;
+        margin-top: 10px;
     }
 
     .test .home-menu-card {
-        width: 200px;
+        width: 195px;
+        height: 110px;
     }
+
+    .home-menu.test {
+        gap: 50px 10px;
+    }
+
+    .home-menu.test .home-menu-img {
+        width: 175px;
+    }
+
+
 }
 
 
@@ -212,22 +275,24 @@
         font-size: 30px;
     }
 
+
     .test .home-menu-name {
-        font-size: 20px;
+        font-size: 17px;
         font-weight: 700;
         margin-top: 5px;
     }
 
     .home-menu.test {
-        gap: 24px 8px;
+        gap: 50px 10px;
     }
 
     .home-menu.test .home-menu-img {
-        max-width: 170px;
+        width: 165px;
     }
 
     .test .home-menu-card {
-        width: 190px;
+        width: 185px;
+        height: 105px;
     }
 
   }
@@ -247,7 +312,23 @@
         font-size: 35px;
     }
 
+    .test .home-menu-name {
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 5px;
+    }
+
+    .home-menu.test .home-menu-img {
+        max-width: 135px;
+    }
+
+    .test .home-menu-card {
+        width: 180px;
+        height: 107px;
+    }
+
 }
+
 
 @media screen and (max-width: 405px) {
 
@@ -256,21 +337,8 @@
         width: 165px;
         
     }
-    .test .home-menu-card {
-        width: 170px;
-    }
 
-    .home-menu-img {
-        max-width: 100px;
-    }
-
-    .home-menu.test {
-        gap: 24px 8px;
-    }
-
-    .home-menu.test .home-menu-img {
-        max-width: 165px;
-    }
+    
 
     .home-menu-name {
         line-height: 120%;
@@ -302,6 +370,19 @@
     .blockView.card .img {
         height: 110px;
     }
+
+
+    /* .home-menu.test {
+        gap: 24px 8px;
+    } */
+
+    .home-menu.test .home-menu-img {
+        max-width: 130px;
+    }
+
+    .test .home-menu-card {
+        width: 170px;
+    }
 }
 
 @media (max-width: 391px) {
@@ -326,6 +407,20 @@
         font-size: 14px;
         margin-bottom: 8px;
     }
+
+
+    .home-menu.test {
+        gap: 55px 10px;
+    }
+
+    .home-menu.test .home-menu-img {
+        max-width: 120px;
+    }
+
+    .test .home-menu-card {
+        width: 160px;
+        height: 95px;
+    }
     
   }
 
@@ -338,6 +433,24 @@
         width: 100%;
         padding: 15px;
         margin-bottom: 30px;
+    }
+    
+    .test .home-menu-name {
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 0px;
+    }
+
+    .home-menu.test {
+        gap: 50px 8px;
+    }
+
+    .home-menu.test .home-menu-img {
+        max-width: 120px;
+    }
+
+    .test .home-menu-card {
+        width: 150px;
     }
 }
 
@@ -379,6 +492,17 @@
     
     .blockView.card p {
         line-height: 1.3;
+    }
+
+    .home-menu.test .home-menu-img {
+        max-width: 115px;
+    }
+
+    .test .home-menu-name {
+        margin-top: 3px;
+    }
+    .test .home-menu-card {
+        width: 140px;
     }
   }
 
